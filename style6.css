@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-first {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.container-second {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.d-flex-second {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin: 36px 0;
+}
+.header-list li a {
+  padding-left: 40px;
+  color: var(--1, #1f2428);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  transition: all ease 0.5s;
+}
+.header-list li a:hover {
+  color: #00c97b;
+  transition: all ease 0.5s;
+}
+.header-span h4 {
+  color: var(--1, #1f2428);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  margin-left: 11px;
+}
+button {
+  color: var(--1, #fff);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  border-radius: 36px;
+  background: linear-gradient(90deg, #00c97b 0%, #00d981 100%);
+  box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.2);
+  border: none;
+}
+.enter {
+  padding: 15px 25px;
+}
+.hero-wrapper {
+  border-radius: 36px;
+  background: linear-gradient(45deg, #5b52a3 0%, #40b8ea 100%);
+  margin-bottom: 160px;
+}
+.hero {
+  padding: 54px;
+}
+.hero h1 {
+  color: var(--4, #fff);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 8px;
+}
+.hero p {
+  color: var(--4, #fff);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 42px;
+  margin-bottom: 36px;
+}
+.hero h3 {
+  color: var(--4, #fff);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.hero-button {
+  padding: 20px 35px;
+  color: var(--1, #fff);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+.cards-section{
+    margin-bottom: 140px;
+}
+.cards-section h1 {
+  color: var(--1, #1f2428);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 127.273% */
+  margin-bottom: 40px;
+}
+.cards-child {
+  border-radius: 16px;
+  background: var(--5, #fff);
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
+  width: 500px;
+  height: 200px;
+  margin-right: 40px;
+  padding: 30px 30px;
+  margin-bottom: 40px;
+}
+.cards-child img {
+  margin-bottom: 20px;
+}
+.cards-child h4 {
+  color: var(--1, #1f2428);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  margin-bottom: 10px;
+}
+.cards-child p {
+  color: var(--1, #1f2428);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 187.5% */
+}
+.work-with-us{
+    border-radius: 36px;
+    background: linear-gradient(45deg, #5B52A3 0%, #40B8EA 100%);
+    padding: 44px 0;
+}
+.work-with-us img{
+    width: 380px;
+    height: 380px;
+}
+.work-text{
+    margin-left: 70px;
+}
+.work-text h1{
+    color: var(--4, #FFF);
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 127.273% */
+margin-bottom: 19px;
+
+}
+.work-text p{
+    color: var(--4, #FFF);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 30px;
+}
+.work-button{
+    padding: 20px 35px;
+    color: var(--1, #FFF);
+text-align: center;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 105.882% */
+}
+.footer {
+  padding-top: 70px;
+  padding-bottom: 55px;
+}
+.footer-img img {
+  display: block;
+}
+#smm-images {
+  padding-top: 34px;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.footer-list h3 {
+  color: var(--1, #1f2428);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.footer-list ul {
+  margin-top: 15px;
+}
+.footer-list ul li a {
+  color: var(--1, #1f2428);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  margin-top: 15px;
+}
+.the-end h4 {
+  text-align: center;
+  color: var(--1, #1f2428);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 153.846% */
+}
+.the-end hr {
+  margin-bottom: 36px;
+}
+.the-end h4 {
+  margin-bottom: 33px;
+}

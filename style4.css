@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-first {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.container-second {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.d-flex-second {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin: 36px 0;
+}
+.header-list li a {
+  padding-left: 40px;
+  color: var(--1, #1f2428);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  transition: all ease 0.5s;
+}
+.header-list li a:hover {
+  color: #00c97b;
+  transition: all ease 0.5s;
+}
+.button-first {
+  color: var(--1, #fff);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  border-radius: 36px;
+  background: linear-gradient(90deg, #00c97b 0%, #00d981 100%);
+  box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.2);
+  border: none;
+}
+.button-second {
+  border-radius: 8px;
+  background: var(--8, #41b7e9);
+  color: var(--1, #fff);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  border: none;
+  padding: 20px 35px;
+}
+.enter {
+  padding: 15px 25px;
+}
+.hero-wrapper {
+  border-radius: 36px;
+  background: linear-gradient(45deg, #5b52a3 0%, #40b8ea 100%);
+  margin-bottom: 160px;
+}
+.hero {
+  padding: 45px 0;
+}
+.hero p {
+  color: var(--2, #fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  margin-bottom: 29px;
+}
+.hero h1 {
+  color: var(--4, #fff);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  margin-bottom: 9px;
+}
+.hero h3 {
+  color: var(--4, #fff);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.hero-button {
+  padding: 15px 25px;
+  margin-bottom: 87px;
+}
+.cards-section{
+    margin-bottom: 160px;
+}
+.card-child img {
+  margin-bottom: 39px;
+}
+.card-child h3 {
+  margin-bottom: 7px;
+  color: var(--1, #1f2428);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+.card-child p {
+  margin-bottom: 22px;
+  color: var(--1, #1f2428);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px; /* 200% */
+}
